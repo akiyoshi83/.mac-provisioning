@@ -16,6 +16,7 @@
       - { name: ansible }
       - { name: coreutils }
       - { name: git }
+      - { name: git-flow }
       - { name: zsh, install_options: disable-etcdir }
       - { name: wget }
       - { name: curl }
