@@ -78,6 +78,7 @@
       - { name: appcleaner }
       - { name: mi }
       - { name: gimp }
+      - { name: google-cloud-sdk }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
