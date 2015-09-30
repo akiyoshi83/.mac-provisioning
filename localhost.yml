@@ -40,6 +40,7 @@
       - { name: postgresql }
       - { name: mysql }
       - { name: sqlite }
+      - { name: redis }
       - { name: imagemagick }
       - { name: packer }
       - { name: socat }
@@ -54,6 +55,12 @@
       - { name: source-highlight }
       - { name: nodebrew }
       - { name: awscli }
+      - { name: heroku-toolbelt }
+      - { name: qt }
+      - { name: watch }
+      - { name: erlang }
+      - { name: exenv }
+      - { name: elixir-build }
     homebrew_cask_packages:
       - { name: java6 }
       - { name: java7 }
@@ -61,6 +68,7 @@
       - { name: android-studio }
       - { name: firefox }
       - { name: google-chrome }
+      - { name: google-japanese-ime }
       - { name: adobe-reader }
       - { name: skype }
       - { name: sourcetree }
@@ -78,7 +86,14 @@
       - { name: appcleaner }
       - { name: mi }
       - { name: gimp }
+      - { name: paintbrush }
       - { name: google-cloud-sdk }
+      - { name: mysqlworkbench }
+      - { name: rowanj-gitx }
+      - { name: rubymine }
+      - { name: skitch }
+      - { name: diskwave }
+      - { name: dockertoolbox }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
